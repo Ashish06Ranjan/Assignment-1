@@ -1,9 +1,11 @@
 # Assignment - 1 : Medical Insurance Cost Prediction using Multiple Linear Regression
 
 ## Objective
-To predict medical insurance charges using Multiple Linear Regression based on customer information.
+The objective of this project is to predict medical insurance charges using Multiple Linear Regression based on customer information such as age, sex, BMI, number of children, smoking status, and region.
 
 ## Dataset
+Medical Cost Personal Insurance Dataset
+
 https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 ## Libraries Used
@@ -14,14 +16,14 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 - Scikit-learn
 
 ## Methodology
-1. Load the dataset.
-2. Check missing values.
-3. Encode categorical variables.
+1. Loaded the dataset.
+2. Checked for missing values.
+3. Encoded categorical variables.
 4. Split the dataset into training and testing sets.
-5. Train a Multiple Linear Regression model.
-6. Predict insurance charges.
-7. Evaluate the model using MAE, MSE, and R² score.
-8. Visualize Actual vs Predicted Charges.
+5. Trained the Multiple Linear Regression model.
+6. Predicted insurance charges.
+7. Evaluated the model using MAE, MSE, and R² Score.
+8. Created an Actual vs Predicted scatter plot.
 
 ## Results
 - Mean Absolute Error (MAE): 4186.51
@@ -29,4 +31,4 @@ https://www.kaggle.com/datasets/mirichoi0218/insurance
 - R² Score: 0.7833
 
 ## Conclusion
-The Multiple Linear Regression model achieved good prediction performance and showed that smoking status, age, and BMI are important factors affecting medical insurance charges.
+The model performed well in predicting insurance charges and achieved an R² score of about 0.78. The results show that smoking status, age, and BMI are important factors affecting insurance costs. Although the model performs well, it may not accurately predict every case because Linear Regression assumes a linear relationship between the features and the target.
